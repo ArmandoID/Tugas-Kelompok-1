@@ -1,6 +1,6 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to bottom, #cce4ff, #ffffff);
+    font-family: Poppins, sans-serif;
+    background: linear-gradient(to bottom, #dee9ff, #ffffff);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,26 +9,27 @@ body {
 }
 
 .container {
-    background-color: #307cff;
+    background-color: #ffffff;
     padding: 30px 40px;
     border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 450px;
-    color: white;
+    color: #ffffff;
 }
 
 .judul {
     text-align: center;
     margin-bottom: 20px;
     font-size: 24px;
+    color: #000000;
 }
 
 label {
     display: block;
     margin-top: 15px;
     font-weight: 500;
-    color: white;
+    color: #000000;
 }
 
 input,
@@ -41,13 +42,14 @@ textarea {
     box-sizing: border-box;
     font-size: 14px;
     transition: border-color 0.3s;
-    background-color: white;
+    background-color: #f6f9ff;
     color: #333;
+    resize: none;
 }
 
 input:focus,
 textarea:focus {
-    border-color: #ffffff;
+    border-color: #307cff;
     outline: none;
 }
 
@@ -55,8 +57,8 @@ button {
     width: 100%;
     padding: 12px;
     margin-top: 20px;
-    background-color: #ffffff;
-    color: #307cff;
+    background-color: #307cff;
+    color: #ffffff;
     font-size: 16px;
     font-weight: bold;
     border: none;
