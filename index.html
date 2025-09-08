@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-    <title>Document</title>
+    <title>Form Tugas Kelompok</title>
 </head>
 <body>
     <div class="container">
@@ -13,21 +12,23 @@
         
         <form action="" autocorrect="off" id="form">
             <label for="nama">Nama</label>
-            <input type="text" class="nama" required>
+            <input type="text" class="nama" id="nama">
 
             <label for="nis">NIS</label>
-            <input type="text" class="nis" required>
+            <input type="text" class="nis" id="nis">
 
             <label for="tempat-lahir">Tempat Lahir</label>
-            <input type="text" class="tempat-lahir" required>
+            <input type="text" class="tempat-lahir" id="tempat-lahir">
             
             <label for="tanggal-lahir">Tanggal Lahir</label>
-            <input type="date" class="tanggal-lahir" required>
+            <input type="date" class="tanggal-lahir" id="tanggal-lahir">
             
             <label for="alamat">Alamat</label>
-            <textarea rows="3" class="alamat" required></textarea>
+            <textarea rows="3" class="alamat" id="alamat"></textarea>
 
             <button type="submit" class="submit">Submit</button>
+
+            <script src="script.js"></script>
         </form>
     </div>
 </body>
