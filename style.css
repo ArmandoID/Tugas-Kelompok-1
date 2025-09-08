@@ -9,6 +9,7 @@ body {
 }
 
 .container {
+
     background-color: #ffffff;
     padding: 30px 40px;
     border-radius: 15px;
@@ -23,6 +24,11 @@ body {
     margin-bottom: 20px;
     font-size: 24px;
     color: #000000;
+}
+
+.sub-judul {
+    text-align: center;
+    color: #5e5e5e;
 }
 
 label {
@@ -69,5 +75,5 @@ button {
 
 button:hover {
     background-color: #d9e8ff;
-    color: #1a4fcc;
+    color: #307cff;
 }
